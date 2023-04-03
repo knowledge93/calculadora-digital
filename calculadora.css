@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 15px;
+}
+.container{
+    max-width: 700px;
+    border: 5px solid #2980B9;
+    padding: 15px;
+    border-radius: 8px;
+}
+.desarrollador{
+    display: flex;
+    justify-content: end;
+    font-size: 0.6em;
+    margin-bottom: .5em;
+    color: #ccc;
+    font-weight: bold;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+}
+.input .dato{
+    border: none;
+    text-align: end;
+    font-size: 1.1em;
+    padding: .3em;
+    border-bottom: 2px solid #ccc;
+}
+.input .dato:focus{
+    outline: none;
+}
+
+.numerico{
+    margin-top: 1em;
+}
+.numerico .fila{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: .5em;
+}
+.numerico .fila > div{
+    background-color: #efefef;
+    padding: .3em;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #2980B9;
+    font-weight: bold;
+}
+.numerico .fila .azul{
+    background-color: #2980B9;
+    color: white;
+}
+.numerico .fila .rojo{
+    background-color: #E40101;
+    color: white;
+}
