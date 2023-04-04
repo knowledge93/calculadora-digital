@@ -64,6 +64,7 @@ body{
     border-radius: 4px;
     color: #2980B9;
     font-weight: bold;
+    cursor: pointer;
 }
 .numerico .fila .azul{
     background-color: #2980B9;
@@ -72,4 +73,12 @@ body{
 .numerico .fila .rojo{
     background-color: #E40101;
     color: white;
+}
+
+#operacion{
+    display: flex;
+    justify-content: end;
+    color: #ccc;
+    font-size: .8em;
+    font-weight: bold;
 }
